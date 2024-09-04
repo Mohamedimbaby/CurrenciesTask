@@ -7,9 +7,7 @@ import 'package:currencies_converter/features/currenciesListing/data/model/curre
 import 'package:currencies_converter/features/currenciesListing/data/services/currencies_services.dart';
 import 'package:currencies_converter/features/currenciesListing/data/services/flags_service.dart';
 import 'package:currencies_converter/features/currenciesListing/domain/repository/currencies_repository.dart';
-import 'package:flutter/material.dart';
 import 'package:injectable/injectable.dart';
-import 'package:intl/intl.dart';
 @LazySingleton(as: CurrenciesRepository)
 class CurrenciesRepositoryImpl extends CurrenciesRepository{
   CurrenciesService currenciesService ;
@@ -55,8 +53,8 @@ class CurrenciesRepositoryImpl extends CurrenciesRepository{
 
   void saveCurrenciesData(List<CurrencyRemoteModel> remoteData) async{
     for (CurrencyRemoteModel item in remoteData) {
-      var uint8list = await flagsService.getFlag(item.flag);
-      await currencyLocalStorage.insertCurrency(item,uint8list!);
+      var imageBytes = await flagsService.getFlag(item.flag);
+      await currencyLocalStorage.insertCurrency(item,imageBytes!);
     }
   }
 
