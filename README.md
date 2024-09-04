@@ -15,13 +15,14 @@ Offline flow : we working with offline first flow which means that we getting th
 
 
 # Packages and plugins requests 
-https://pub.dev/packages/build_runner -> for generate a code 
-https://pub.dev/packages/flutter_bloc -> for state management 
-https://pub.dev/packages/shared_preferences -> for saving choosen theme and language
-https://pub.dev/packages/sqflite -> for saving data localley 
-https://pub.dev/packages/json_serializable -> serializing responses 
-https://pub.dev/packages/dio -> for fetching api data  
-https://pub.dev/packages/injectable -> for dependency inversion 
+
+- https://pub.dev/packages/build_runner -> for generate a code 
+- https://pub.dev/packages/flutter_bloc -> for state management 
+- https://pub.dev/packages/shared_preferences -> for saving choosen theme and language
+- https://pub.dev/packages/sqflite -> for saving data localley 
+- https://pub.dev/packages/json_serializable -> serializing responses 
+- https://pub.dev/packages/dio -> for fetching api data  
+- https://pub.dev/packages/injectable -> for dependency inversion 
 
 # Installation
 To run this app locally, follow these steps:
