@@ -1,0 +1,17 @@
+{
+      "home": "الرئيسيه",
+      "currencies_app": "العملات",
+      "english": "اللغه العربيه",
+      "themeMode": "الواجهه",
+              "currency_today_price": "سعر الدولار الان:",
+              "inEGP": "{number}جنيها مصري",
+                      "@inEGP":{
+                      "placeholders": {
+                          "number": {
+                            "type": "num",
+                            "example": "12.123"
+                          }
+                        }},
+
+      "pleaseContactTechnicalSupport":"يرجى التواصل مع الدعم الفنى"
+}

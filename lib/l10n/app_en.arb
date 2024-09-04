@@ -1,0 +1,16 @@
+{
+        "home": "Home",
+        "currencies_app": "Currencies App",
+        "inEGP": "{number} EGP",
+        "@inEGP":{
+        "placeholders": {
+            "number": {
+              "type": "num",
+              "example": "12.123"
+            }
+          }},
+                "english": "English",
+                "themeMode": "ُTheme Mode",
+        "currency_today_price": "USD Today Price :",
+         "pleaseContactTechnicalSupport":"Please contact technical support"
+}
